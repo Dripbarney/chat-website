@@ -1,1 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #202124;
+  color: #e8eaed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
+/* Username screen */
+#username-box {
+  background: #303134;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+#username-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+#save-username {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #1a73e8;
+  color: white;
+  cursor: pointer;
+}
+
+/* Chat app (hidden until username chosen) */
+#app {
+  display: none;
+  background: #303134;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+#chat-box {
+  background: #171717;
+  border-radius: 8px;
+  height: 250px;
+  padding: 10px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin-bottom: 6px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  background: #3c4043;
+}
+
+#chat-form {
+  display: flex;
+  gap: 6px;
+}
+
+#message-input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #1a73e8;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1669c1;
+}
